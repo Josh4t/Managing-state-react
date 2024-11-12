@@ -1,0 +1,25 @@
+.app {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
